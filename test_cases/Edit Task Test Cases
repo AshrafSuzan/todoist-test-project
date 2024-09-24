@@ -1,0 +1,24 @@
+Edit Test Cases:
+1. Modify Title and Description:
+
+Test Case: Edit the title and description of a task.
+Expected Result: The changes should be reflected in the list.
+
+2. Modify Due Date:
+
+Test Case: Change the due date of a task.
+Expected Result: The due date should be updated correctly.
+
+3. Edit Completed Task:
+
+Test Case: Edit a completed task.
+Expected Result: The edits should be applied successfully, and the task's status should remain "completed."
+
+4. Empty Input:
+
+Test Case: Try to edit a task with an empty title or description.
+Expected Result: An error message should be displayed, preventing the edits from being saved.
+5. Cancel Edits:
+
+Test Case: If applicable, check if there's a "Cancel" or "Discard Changes" option. Try to cancel the edits.
+Expected Result: The original task information should be retained.
