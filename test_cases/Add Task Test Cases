@@ -1,1 +1,21 @@
+Test Cases:
+1. Valid Input:
 
+Test Case: Enter a valid task title and description.
+Expected Result: The task should be added successfully to the list.
+2. Invalid Input:
+
+Test Case: Enter an empty task title or description.
+Expected Result: An error message should be displayed, preventing the task from being added.
+3. Special Characters:
+
+Test Case: Enter a task title or description containing special characters (e.g., @, #, $).
+Expected Result: The task should be added successfully, handling the special characters appropriately.
+4. Long Input:
+
+Test Case: Enter a very long task title or description.
+Expected Result: The task should be added successfully, handling the input length appropriately.
+5. Duplicate Input:
+
+Test Case: Try to add a task with the same title and description as an existing task.
+Expected Result: An error message should be displayed, indicating that the task already exists.
