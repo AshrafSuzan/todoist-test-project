@@ -1,0 +1,21 @@
+Test Cases:
+1. Single Task:
+
+Test Case: Delete a single task.
+Expected Result: The task should be removed from the list.
+2. Multiple Tasks:
+
+Test Case: Select and delete multiple tasks.
+Expected Result: All selected tasks should be deleted.
+3. Empty List:
+
+Test Case: Try to delete a task when the list is empty.
+Expected Result: An appropriate message or indication should be displayed.
+4. Completed Task:
+
+Test Case: Delete a completed task.
+Expected Result: The task should be deleted successfully.
+5. Undo Deletion:
+
+Test Case: If applicable, check if there's an undo feature. If so, try to undo the deletion.
+Expected Result: The deleted task should be restored.
