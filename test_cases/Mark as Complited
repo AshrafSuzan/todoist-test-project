@@ -1,0 +1,23 @@
+Mark as completed 
+### Test Cases:
+
+**1. Single Task:**
+* **Test Case:** Mark a single task as completed.
+* **Expected Result:** The task's status should change to "completed" in the list.
+
+**2. Multiple Tasks:**
+* **Test Case:** Mark multiple tasks as completed.
+* **Expected Result:** All selected tasks should have their status updated to "completed."
+
+**3. Revert Status:**
+* **Test Case:** Mark a completed task as "not completed."
+* **Expected Result:** The task's status should revert to "not completed."
+
+**4. Delete Completed Task:**
+* **Test Case:** Try to delete a completed task.
+* **Expected Result:** The task should be deleted successfully.
+
+**5. Edit Completed Task:**
+* **Test Case:** Try to edit a completed task.
+* **Expected Result:** The edit should be applied successfully, and the task's status should remain "completed."
+
